@@ -24,7 +24,7 @@ function formatUptime(uptime) {
 	}
 
 	uptime = hours + ' ' + minutes + ' ' + seconds;
-	console.log('Uptime: ~', uptime);
+	return uptime;
 }
 
 exports.print = formatUptime;
