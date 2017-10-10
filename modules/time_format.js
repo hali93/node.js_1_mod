@@ -27,4 +27,4 @@ function formatUptime(uptime) {
 	return uptime;
 }
 
-exports.print = formatUptime;
+exports.getFormattedUptime = formatUptime;
